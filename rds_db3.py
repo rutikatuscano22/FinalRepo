@@ -3,7 +3,7 @@
 Created on Sat Jul 25 13:34:18 2020
 @author: hp
 """
-
+import pymysql
 from pymysql import connections
 '''import aws_credentials as rds'''
 conn = pymysql.connect(
